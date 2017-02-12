@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: web
+#  cloud:
+#    config:
+#      uri:  ${vcap.services.ocr-config-server.credentials.uri:http://ocr-config-server.cfapps.io}
+#      failFast: true
