@@ -2,7 +2,7 @@ angular.module('mediLeadsApp')
   .controller('QueuesCtrl', function ($scope, $http, $routeParams) {
 	  $http({
           method: 'GET',
-          url: '/queues/appointments/' + $routeParams.appointmentId
+          url: 'queues/allDoctors'
       }).then(function (response) {
     	  $scope.queues = response.data;
       }, function(response) {
