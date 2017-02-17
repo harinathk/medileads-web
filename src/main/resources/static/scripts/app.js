@@ -13,7 +13,7 @@ angular
         templateUrl: 'views/main.html',
         controller: 'MainCtrl'
       })
-      .when('/queues/:appointmentId', {
+      .when('/queues/allDoctors', {
     	  templateUrl: 'views/queues.html',
     	  controller: 'QueuesCtrl'
       })
