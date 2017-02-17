@@ -1,4 +1,15 @@
-<h3>Queues</h3>
-<ul>
-	<li ng-repeat="queue in queues">{{queue.firstName}} {{queue.lastName}}</li>
-</ul>
+<h3>Doctors</h3>
+<table>
+  <tr ng-repeat="queue in queues">
+    <td>
+    <table style="width: 300">
+    <tr><td><b>Doctor:</b></td></tr>
+    <tr><td>{{queue.firstName}} {{queue.lastName}}</td></tr>
+    <tr><td>{{queue.email}}</td></tr>
+    <tr><td>{{queue.qualification}}</td></tr>
+    <tr><td>&nbsp;</td></tr>
+    </table>    
+	</td>
+  </tr>
+  
+</table>
